@@ -1,0 +1,13 @@
+.bodySection {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bodySection h2 {
+  width: 100%;
+}
+
+.bodySection table {
+  margin: 0 auto;
+}

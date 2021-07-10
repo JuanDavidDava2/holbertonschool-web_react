@@ -1,0 +1,17 @@
+:root {
+  --primary-color: #e01d3f;
+  --primary-border-color: rgb(170, 170, 170);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App {
+  border-bottom: 3px solid var(--primary-color);
+}
+.App-body {
+  margin: 50px 40px;
+}
+
+.App-container {
+  position: relative;
+  min-height: 100vh;
+}

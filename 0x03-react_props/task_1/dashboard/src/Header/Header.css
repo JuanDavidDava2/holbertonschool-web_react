@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  align-items: center;
+  color: var(--primary-color);
+  font-size: 20px;
+  border-bottom: 3px solid var(--primary-color);
+}
+
+.header img {
+  width: 200px;
+}

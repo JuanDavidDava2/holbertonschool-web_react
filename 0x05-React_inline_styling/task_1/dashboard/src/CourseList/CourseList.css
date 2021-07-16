@@ -1,0 +1,15 @@
+th, td {
+  padding: 0.25rem;
+}
+
+thead tr {
+  border: 1px solid lightgray;
+}
+
+thead th:last-of-type {
+  border-left: none;
+}
+
+th:not([colspan="2"]) {
+  text-align: left;
+}

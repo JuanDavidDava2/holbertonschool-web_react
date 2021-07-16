@@ -1,0 +1,38 @@
+:root {
+  --red-color: #e01d3f;
+}
+
+.notifications-container {
+  width: 35%;
+  position: absolute;
+  top: 10px;
+  right: 30px;
+}
+
+.menuItem {
+  text-align: end;
+}
+
+.Notifications {
+  position: relative;
+  border: 2px dashed var(--red-color);
+  padding: 0 0.5rem;
+  margin: 1rem 0;
+}
+
+li[data-notification-type="default"] {
+  color: blue;
+}
+
+li[data-notification-type="urgent"] {
+  color: red;
+}
+
+.Notifications button  {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: transparent; 
+  border: none;
+  cursor: pointer;
+}

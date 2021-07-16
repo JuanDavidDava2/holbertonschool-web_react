@@ -1,0 +1,13 @@
+.App-footer {
+  background-color: white;
+  text-align: center;
+  width: 95%;
+  position: absolute;
+  bottom: 0px;
+  border-top: 3px solid var(--color-red);
+}
+
+.App-footer p {
+  font-style: italic;
+  text-align: center;
+}
